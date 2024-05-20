@@ -10,6 +10,7 @@ O primeiro objetivo é criar um modelo capaz de prever quando um cliente está p
 O segundo objetivo é agrupar os clientes que cancelaram o serviço de internet usando técnicas de clusterização. 
 Ao identificar grupos de clientes com características e comportamentos semelhantes, poderemos desenvolver estratégias de marketing específicas para reter esses clientes
 
+## Projeto
 **Contexto**: Com a crescente competição entre os provedores de internet, manter os clientes existentes tornou-se uma prioridade vital para aumentar a receita. 
 Diante desse cenário, entender o fenômeno do churn, ou seja, a taxa de cancelamento de serviços, é crucial. 
 Os provedores buscam identificar quais clientes apresentam maior probabilidade de cancelar seus serviços, pois isso lhes permite antecipar tais movimentos e implementar 
