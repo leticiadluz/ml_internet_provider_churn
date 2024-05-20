@@ -37,7 +37,7 @@ O notebook contendo esta etapa pode ser acessado [aqui](https://github.com/letic
 Para entender melhor os padrões entre os clientes que cancelaram o serviço, realizamos uma análise de clusterização utilizando dois algoritmos: K-Means e DBSCAN.
 Ambos os algoritmos, K-Means e DBSCAN, apresentaram escores de silhueta semelhantes, indicando desempenho comparável na definição dos clusters. No entanto, o K-Means identificou um número maior de clusters (k=6), enquanto o DBSCAN identificou um número menor, (k=3), sugerindo  que o K-Means apresenta uma capacidade maior de capturar a complexidade dos nossos dados. Além disto, o K-Means apresentou menor tempo de processamento, se mostrando mais adequado para lidar com conjuntos de dados de grande escala. 
 Com base nisso, escolhemos o K-Means como nosso modelo de clusterização, pois além de ser computacionalmente eficiente, ele oferece uma segmentação mais detalhada dos dados.
-Os resultados da clusterização podem ser acessados [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/clusterizacao.ipynb)
+Os resultados da clusterização podem ser acessados [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/clusterizacao.ipynb).
 
 ## Ferramentas utilizadas
 
