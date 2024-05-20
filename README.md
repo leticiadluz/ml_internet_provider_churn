@@ -29,7 +29,12 @@ O notebook contendo esta etapa pode ser acessado [aqui](https://github.com/letic
 **O dataset limpo após a análise exploratória, pode ser acessado [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/df_churn_cleaned.csv)** 
 
 ### Aprendizado de máquina supervisionado (classificação)
-Construímos seis modelos de Machine Learning utilizando três estimadores diferentes: KNN, SVC e XGBoost. Realizamos pré-processamento das variáveis, escolhendo as mais adequadas para cada estimador, além de otimização de hiperparâmetros e seleção de variáveis. A métrica escolhida para a avaliação do modelo foi o recall. Ao otimizar o recall, garantimos que estamos minimizando a quantidade de falsos negativos, ou seja, estamos identificando o maior número possível de clientes em risco de churn.
+Construímos seis modelos de Machine Learning utilizando três estimadores diferentes: KNN, SVC e XGBoost. Realizamos pré-processamento das variáveis, escolhendo as mais adequadas para cada estimador, além de otimização de hiperparâmetros. A métrica escolhida para a avaliação do modelo foi o recall. Ao otimizar o recall, garantimos que estamos minimizando a quantidade de falsos negativos, ou seja, estamos identificando o maior número possível de clientes em risco de churn.
+O modelo final utilizou o estimador XGBoost e atingiu um recall de de 0.94 nos dados de teste, demonstrando sua eficácia em identificar casos de churn.
+O notebook contendo esta etapa pode ser acessado [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/ML.ipynb).
+
+### Aprendizado de máquina não supervisionado (clusterização)
+
 
 
 
