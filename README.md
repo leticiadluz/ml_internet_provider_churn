@@ -21,9 +21,15 @@ Para o desenvolvimento do projeto, utilizamos o dataset Internet Service Provide
 Este conjunto de dados inclui variáveis essenciais que podem ajudar na identificação de padrões associados ao churn como: assinatura de TV, assinatura de pacotes de filmes, tempo de
 assinatura, fatura média, contagem de falhas no serviço, etc.  
 
+### Análise Exploratória de Dados
 Para compreender os dados e as variáveis disponíveis, conduzimos uma análise exploratória detalhada.
 Isso incluiu também a investigação das relações entre as variáveis preditoras e o target, utilizando testes de hipóteses adequados.
 O notebook contendo esta etapa pode ser acessado [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/EDA.ipynb).
+
+**O dataset limpo após a análise exploratória, pode ser acessado [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/df_churn_cleaned.csv)** 
+
+### Aprendizado de máquina supervisionado (classificação)
+Construímos seis modelos de Machine Learning utilizando três estimadores diferentes: KNN, SVC e XGBoost. Realizamos pré-processamento das variáveis, escolhendo as mais adequadas para cada estimador, além de otimização de hiperparâmetros e seleção de variáveis. A métrica escolhida para a avaliação do modelo foi o recall. Ao otimizar o recall, garantimos que estamos minimizando a quantidade de falsos negativos, ou seja, estamos identificando o maior número possível de clientes em risco de churn.
 
 
 
