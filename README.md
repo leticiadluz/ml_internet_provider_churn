@@ -17,13 +17,13 @@ Os provedores buscam identificar quais clientes apresentam maior probabilidade d
 estratégias eficazes de retenção.
 
 Para o desenvolvimento do projeto, utilizamos o dataset Internet Service Provider Customer Churn disponível no site da 
-[Kaggle].(https://www.kaggle.com/datasets/mehmetsabrikunt/internet-service-churn/data)
+[Kaggle](https://www.kaggle.com/datasets/mehmetsabrikunt/internet-service-churn/data).
 Este conjunto de dados inclui variáveis essenciais que podem ajudar na identificação de padrões associados ao churn como: assinatura de TV, assinatura de pacotes de filmes, tempo de
 assinatura, fatura média, contagem de falhas no serviço, etc.  
 
 Para compreender os dados e as variáveis disponíveis, conduzimos uma análise exploratória detalhada.
 Isso incluiu também a investigação das relações entre as variáveis preditoras e o target, utilizando testes de hipóteses adequados.
-O notebook contendo esta etapa pode ser acessado [aqui].(https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/EDA.ipynb)
+O notebook contendo esta etapa pode ser acessado [aqui](https://github.com/leticiadluz/ml_internet_provider_churn/blob/main/EDA.ipynb).
 
 
 
